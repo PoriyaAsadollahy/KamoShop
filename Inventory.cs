@@ -98,18 +98,13 @@ namespace Final_Project
             dgvColor.HeaderText = "Color";
             dgvColor.ReadOnly = true;
 
-            DataGridViewCheckBoxColumn dgvCheckBox = new DataGridViewCheckBoxColumn();
-            dgvCheckBox.ValueType = typeof(bool);
-            dgvCheckBox.HeaderText = "Delete";
-
             dgvShowProduct.Columns.Add(dgvImage);
             dgvShowProduct.Columns.Add(dgvName);
             dgvShowProduct.Columns.Add(dgvQuantity);
             dgvShowProduct.Columns.Add(dgvPrice);
             dgvShowProduct.Columns.Add(dgvCat);
             dgvShowProduct.Columns.Add(dgvColor);
-            dgvShowProduct.Columns.Add(dgvID);
-            dgvShowProduct.Columns.Add(dgvCheckBox);
+            dgvShowProduct.Columns.Add(dgvID);            
 
             dgvSoonFinished.Columns.Add(dgvImage2);
             dgvSoonFinished.Columns.Add(dgvName2);
@@ -129,7 +124,7 @@ namespace Final_Project
             foreach (Product p in productList.items)
             {
                 Image temp = Image.FromFile(p.ImageLocation);
-                dgvShowProduct.Rows.Add(temp, p.Name, p.Quantity, p.Price, p.Category, p.Color, p.ProductID, false);
+                dgvShowProduct.Rows.Add(temp, p.Name, p.Quantity, p.Price, p.Category, p.Color, p.ProductID);
                 if(p.Quantity < 5)
                 {
                     dgvSoonFinished.Rows.Add(temp, p.Name, p.Quantity, p.Price, p.ProductID);
@@ -139,36 +134,50 @@ namespace Final_Project
 
         private void butDelete_Click(object sender, EventArgs e)
         {
-            DataGridViewRow rowToRemove = dgvShowProduct.CurrentRow;
-            string id = rowToRemove.Cells[6].Value.ToString() ?? string.Empty;
-            foreach (Product p in productList.items)
+            try
             {
-                if (id == p.ProductID.ToString())
+                DataGridViewRow rowToRemove = dgvShowProduct.CurrentRow;
+                string id = rowToRemove.Cells[6].Value.ToString() ?? string.Empty;
+                foreach (Product p in productList.items)
                 {
-                    var item = productList.items.SingleOrDefault(x => x.ProductID == p.ProductID);
-                    if (item != null)
+                    if (id == p.ProductID.ToString())
                     {
-                        productList.items.Remove(item);
-                        break;
+                        var item = productList.items.SingleOrDefault(x => x.ProductID == p.ProductID);
+                        if (item != null)
+                        {
+                            productList.items.Remove(item);
+                            break;
+                        }
                     }
                 }
+                dgvShowProduct.Rows.Remove(rowToRemove);
             }
-            dgvShowProduct.Rows.Remove(rowToRemove);
+            catch
+            {
+                // do nothing
+            }
         }
 
         private void dgvShowProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string ID = dgvShowProduct.CurrentRow.Cells[6].Value.ToString() ?? string.Empty;
-
-            foreach(Product p in productList.items)
+            try
             {
-                if(ID == p.ProductID.ToString())
+                string ID = dgvShowProduct.CurrentRow.Cells[6].Value.ToString() ?? string.Empty;
+
+                foreach (Product p in productList.items)
                 {
-                    UpdateProduct page = new UpdateProduct(p);
-                    this.Close();
-                    page.Show();
-                    break;
+                    if (ID == p.ProductID.ToString())
+                    {
+                        UpdateProduct page = new UpdateProduct(p);
+                        this.Close();
+                        page.Show();
+                        break;
+                    }
                 }
+            }
+            catch
+            {
+                // do nothing
             }
         }
     }

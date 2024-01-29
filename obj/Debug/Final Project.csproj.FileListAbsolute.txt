@@ -108,21 +108,22 @@ D:\SAVE\kamo shop\Final Project\obj\Debug\Final Project.csproj.GenerateResource.
 D:\SAVE\kamo shop\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
 D:\SAVE\kamo shop\Final Project\obj\Debug\Final Project.exe
 D:\SAVE\kamo shop\Final Project\obj\Debug\Final Project.pdb
-D:\c++ codes\kamo shop\Final Project\bin\Debug\Final Project.exe.config
-D:\c++ codes\kamo shop\Final Project\bin\Debug\Final Project.exe
-D:\c++ codes\kamo shop\Final Project\bin\Debug\Final Project.pdb
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.AddProdut.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.BuyProductcs.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.Cart.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.Searching.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.inventory.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.LogIn.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.SignUp.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.Shopping.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final_Project.UpdateProduct.resources
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final Project.exe
-D:\c++ codes\kamo shop\Final Project\obj\Debug\Final Project.pdb
+C:\Users\Atefe\Desktop\kamo shop\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\Atefe\Desktop\kamo shop\Final Project\bin\Debug\Final Project.exe
+C:\Users\Atefe\Desktop\kamo shop\Final Project\bin\Debug\Final Project.pdb
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.AddProdut.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.BuyProductcs.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.Cart.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.Searching.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.inventory.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.LogIn.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.SignUp.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.Shopping.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final_Project.UpdateProduct.resources
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final Project.exe
+C:\Users\Atefe\Desktop\kamo shop\Final Project\obj\Debug\Final Project.pdb

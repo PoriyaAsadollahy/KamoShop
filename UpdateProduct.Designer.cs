@@ -329,6 +329,7 @@
             this.Controls.Add(this.pnlmenuAd);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UpdateProduct";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.pnlmenuAd.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picProduct)).EndInit();

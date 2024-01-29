@@ -84,7 +84,7 @@
             this.btnLogOut.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogOut.BackgroundImage")));
             this.btnLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogOut.Location = new System.Drawing.Point(3, -1);
+            this.btnLogOut.Location = new System.Drawing.Point(4, 10);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(43, 47);
             this.btnLogOut.TabIndex = 18;
@@ -117,7 +117,7 @@
             this.butSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("butSearch.BackgroundImage")));
             this.butSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.butSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butSearch.Location = new System.Drawing.Point(87, 0);
+            this.butSearch.Location = new System.Drawing.Point(88, 11);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(46, 44);
             this.butSearch.TabIndex = 10;
@@ -129,7 +129,7 @@
             this.butCart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("butCart.BackgroundImage")));
             this.butCart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.butCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butCart.Location = new System.Drawing.Point(44, 0);
+            this.butCart.Location = new System.Drawing.Point(45, 11);
             this.butCart.Name = "butCart";
             this.butCart.Size = new System.Drawing.Size(46, 44);
             this.butCart.TabIndex = 9;
